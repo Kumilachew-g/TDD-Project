@@ -1,1 +1,1 @@
-# Add TDD Testing
+require './solver'
