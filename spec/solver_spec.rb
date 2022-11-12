@@ -30,3 +30,9 @@ describe 'test methods' do
     rev = @solver.reverse('hello')
     expect(rev).to eq('olleh')
   end
+
+  # Fizzbuzz Method Test 1
+  it 'for a number divisible by 3, should return fizz' do
+    fizz = @solver.fizzbuzz(9)
+    expect(fizz).to eq('fizz')
+   end
