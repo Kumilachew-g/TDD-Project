@@ -42,3 +42,9 @@ describe 'test methods' do
     buzz = @solver.fizzbuzz(10)
     expect(buzz).to eq('buzz')
   end
+
+  # fizzbuzz method test 3
+  it 'for a number divisible by 3 and 5, should return fizzbuzz' do
+    fizzbuzz = @solver.fizzbuzz(15)
+    expect(fizzbuzz).to eq('fizzbuzz')
+  end
