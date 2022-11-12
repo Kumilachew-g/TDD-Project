@@ -23,4 +23,4 @@ describe 'test methods' do
 
   it 'should return an error for the negative number n' do
     expect { @solver.factorial(-2) }.to raise_error('The number should be greater than zero')
-  en
+  end
