@@ -1,12 +1,12 @@
 require './solver'
 
 describe 'test methods' do
-    before :each do
-      @solver = Solver.new
-    end
+  before :each do
+    @solver = Solver.new
+  end
 
- # Factorial Method Test
- it 'should return the factorial for the number n' do
+  # Factorial Method Test
+  it 'should return the factorial for the number n' do
     f = @solver.factorial(4)
     expect(f).to eq(24)
   end
@@ -35,9 +35,9 @@ describe 'test methods' do
   it 'for a number divisible by 3, should return fizz' do
     fizz = @solver.fizzbuzz(9)
     expect(fizz).to eq('fizz')
-   end
+  end
 
-   # fizzbuzz method test 2
+  # fizzbuzz method test 2
   it 'for a number divisible by 5, should return buzz' do
     buzz = @solver.fizzbuzz(10)
     expect(buzz).to eq('buzz')
