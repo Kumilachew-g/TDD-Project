@@ -1,1 +1,5 @@
-# Add method
+class Solver
+
+    
+end
+
