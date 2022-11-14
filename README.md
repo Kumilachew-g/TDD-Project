@@ -11,7 +11,7 @@ In this project, I have implemented a Ruby class with some methods, but I have d
 
 ## Getting Started
 
-1.  Download the zip file from [this_link](https://github.com/Kumilachew-g/TDD-Project/archive/refs/heads/dev.zip)
+1.  Download the zip file from [This_Link](https://github.com/Kumilachew-g/TDD-Project/archive/refs/heads/dev.zip)
 2.  open the file with your preferred IDE, go to the project root folder.
 3.  run
 
